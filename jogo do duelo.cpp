@@ -12,7 +12,7 @@ int main() // Abrindo a Função Principal
 	bool sair = false; // Variável do tipo BULEANA, e está declarando a Variável
 
 	cout << "\aDigite o nome do player 1" << endl; // Aqui pede o nome do player1
-	cin >> P1; recebe o nome do Jogador1
+	cin >> P1; // recebe o nome do Jogador1
 	cout << "\aDigite o nome do player 2" << endl; // Pede o nome do Player2
 	cin >> P2; // recebe o nome do Jogador2
 
