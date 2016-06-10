@@ -8,7 +8,7 @@ int main() // Abrindo a Função Principal
 {
 	int Vida1 = 20, Vida2 = 20; // Vida de Ambos Jogadores
 	int dano1 = 0, dano2 = 0; // Dano causado em Ambos
-	string P1, P2;
+	string P1, P2; // Variáveis que armazena o nome dos dois Jogadores 
 	bool sair = false; // Variável do tipo BULEANA, e está declarando a Variável
 
 	cout << "\aDigite o nome do player 1" << endl; // Aqui pede o nome do player1
