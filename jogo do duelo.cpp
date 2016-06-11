@@ -7,7 +7,7 @@ using namespace std; // Permite a entrada de todas as Bibliotecas na Função Pr
 int main() // Abrindo a Função Principal
 {
 	int Vida1 = 20, Vida2 = 20; // Vida de Ambos Jogadores
-	int dano1 = 0, dano2 = 0; // Dano causado em Ambos
+	int dano1 = 0, dano2 = 0; // Dano causado em Ambos Jogadores
 	string P1, P2; // Variáveis que armazena o nome dos dois Jogadores 
 	bool sair = false; // Variável do tipo BULEANA, e está declarando a Variável
 
@@ -16,7 +16,7 @@ int main() // Abrindo a Função Principal
 	cout << "\aDigite o nome do player 2" << endl; // Pede o nome do Player2
 	cin >> P2; // recebe o nome do Jogador2
 
-	while (sair == false) // Está abrindo o Laço e se SAIR for VERDADEIRO o jogo de encerra
+	while (sair == false) // Está abrindo o Laço e se SAIR for VERDADEIRO o jogo se encerra
 	{
 		cout << "-" << dano1 << "                   -" << dano2 << endl; // Os dois estão imprimindo o Dano dos Jogadores
 		cout << " o                   o  " << endl; // Imprimindo a parte do corpo de meu Personagem
